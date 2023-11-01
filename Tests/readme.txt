@@ -1,0 +1,1 @@
+Ici, mettre en place les tests unitaires pour cahque modules. Chaque module devrait avoir son dossier de test à l'intérieur de celui-ci.

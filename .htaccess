@@ -1,0 +1,11 @@
+# Turn on the rewrite engine
+RewriteEngine On
+RewriteBase /ShoutBox/
+# If the requested file or directory exists, don't apply the rewrite rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For all other requests, redirect them to Routes.php
+# RewriteRule ^(.*)$ Config/Routes.php [L]
+
+RewriteRule ^(.*)$ index.php [L]

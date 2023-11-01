@@ -1,0 +1,3 @@
+Une classe gérérique pour communiquer avec la base de données. Chaque module a un model qui pourra utiliser cette classe pour ses requêtes vers la BD.
+La connection vers la base de données se fera donc dans cette classe seulement et jamais nul part ailleurs.
+*Important* Retirer les droits de supprimer de l'utilisateur. Aucun développeur de devrait avoir la possibilité de supprimer une ligne d'une table.
